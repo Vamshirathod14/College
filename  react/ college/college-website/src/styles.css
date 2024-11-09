@@ -1,0 +1,62 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+.about, .courses {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    background-color: #ffeb3b; /* Yellow */
+}
+
+.courses {
+    background-color: #2196F3; /* Blue */
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
